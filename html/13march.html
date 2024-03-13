@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            display: flex;
+        
+
+        }
+        .fixbox{
+            height: 100vh;
+            width: 20vw;
+            background-color: rgb(212, 64, 10);
+            color: white;
+            position: fixed;
+
+    
+        }
+        .content1{
+            /* border: 2px solid white; */
+            font-family: sans-serif;
+            font-size: 25px;
+            margin-top: 120px;
+            margin-left: 30px;
+            line-height: 40px;
+        }
+        .content2{
+            /* border: 2px dotted black; */
+            font-family: sans-serif;
+            margin-top: 60px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+        
+
+        }
+        .content2 ul{
+            list-style: none;
+        }
+
+        .Rightbox{
+            /* background-color: black; */
+            width:80vw;
+            height: 200vh;
+            position: absolute;
+            right: 0px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!--hover effect for hover effect we can use 
+        for responsiveness we can use flex-wrap: wrap;
+    for cursor - we can use "cursor : pointer"
+    media query : used for multiple screen responsiveness 
+
+    website : font awesome : you can take any icon you want
+    for access in your code : site : font awesome cdn
+    -->
+    <div class="container">
+        <div class="fixbox">
+            <div class="content1">
+                <h3>Company <br> Name</h3>
+            </div>
+            <div class="content2">
+                <ul>
+                    <li>Home</li>
+                    <li>Showcase</li>
+                    <li>Service</li>
+                    <li>Designers</li>
+                    <li>Packages</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+         </div>
+         <div class="Rightbox">
+          
+         </div>
+     
+    </div>
+
+    <header>
+
+
+    </header>
+    
+</body>
+</html>
