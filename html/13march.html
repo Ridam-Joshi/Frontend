@@ -22,6 +22,9 @@
             background-color: rgb(212, 64, 10);
             color: white;
             position: fixed;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 30px;
 
     
         }
@@ -29,24 +32,32 @@
             /* border: 2px solid white; */
             font-family: sans-serif;
             font-size: 25px;
-            margin-top: 120px;
-            margin-left: 30px;
-            line-height: 40px;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            
+            
         }
         .content2{
             /* border: 2px dotted black; */
             font-family: sans-serif;
-            margin-top: 60px;
-            margin-left: 30px;
-            margin-bottom: 20px;
+            height: 50vh;
             line-height: 40px;
             font-size: 20px;
             font-weight: bold;
+            cursor: pointer;
+            /* padding: 0px 20px; */
         
 
         }
         .content2 ul{
             list-style: none;
+        }
+        .content2 ul li:hover{
+            background-color : #FFFFFF;
+            color:black;
+            
+
         }
 
         .Rightbox{
@@ -55,9 +66,112 @@
             height: 200vh;
             position: absolute;
             right: 0px;
+            padding: 90px 60px 0px 50px;
+            /* background-color: aquamarine; */
 
         }
+        .heading{
+            width: 100%;
+            height: 20vh;
+            /* background-color:yellow; */
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            color: #000000;
+        }
+        .subheading{
+            width: 100%;
+            height: 10vh;
+            /* background-color: bisque; */
+            display: flex;
+            color:  rgb(212, 64, 10);
+            align-items: center;
+            font-size: 39px;
+            font-weight: 20;
         
+        }
+        .line{
+            width: 59px;
+            height: 9px;
+            background-color: rgb(212, 64, 10);
+            border-radius: 6px;
+            margin: 20px 0px;
+        }
+        .image{
+            height: 140vh;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            cursor: pointer;
+            
+        
+        }
+        .img1{
+            /* border: 2px dotted darkblue; */
+            height: 140vh;
+            width: 50%;
+            /* display: flex; */
+
+        }
+        .one{
+            /* border: 1px dotted purple; */
+            height: 60vh;
+            width: 100%;
+        }
+        .two{
+            /* border: 1px dotted purple; */
+            height: 40vh;
+            width: 100%;
+
+        }
+        .three{
+            /* border: 1px dotted purple; */
+            height: 40vh;
+            width: 100%;
+        }
+        .one img{
+            height: 60vh;
+            width:100%;
+            padding: 20px 10px 0px 0px;
+            
+        }
+        .two img{
+            height: 40vh;
+            width:100%;
+            padding: 20px 10px 0px 0px;
+            
+        }
+        .three img{
+            height: 40vh;
+            width:100%;
+            padding: 20px 10px 0px 0px;
+            
+        
+        }
+
+        .services{
+            /* border: 1px solid black; */
+            height: 50vh;
+            width: 100%;
+            margin-top: 50px;
+
+
+        }
+        .para{
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            
+        }
+
+        .designers{
+            /* border: 1px solid black; */
+            height: 50vh;
+            width: 100%;
+            margin-top: 50px;
+
+        }
+
 
     </style>
 </head>
@@ -87,15 +201,102 @@
             </div>
          </div>
          <div class="Rightbox">
+            <div class="heading">
+                <h1>Interior Design</h1>
+
+            </div>
+            <div class="subheading">
+                <h3>Showcase.</h3>
+
+            </div>
+            <div class="line">
+
+            </div>
+
+            <div class="image">
+                <div class="img1">
+
+                    <div class="one">
+                        <img src="https://www.w3schools.com/w3images/kitchenconcrete.jpg" />
+            
+
+                    </div>
+                    <div class="two">
+                        <img src="https://www.w3schools.com/w3images/livingroom.jpg" />
+
+                    </div>
+                    <div class="three">
+                        <img src="https://www.w3schools.com/w3images/diningroom.jpg" />
+
+                    </div>
+
+                </div>
+                <div class="img1">
+                    <div class="one">
+                        <img src="https://www.w3schools.com/w3images/atrium.jpg" />
+
+                    </div>
+                    <div class="two">
+                        <img src="https://www.w3schools.com/w3images/bedroom.jpg" />
+
+                    </div>
+                    <div class="three">
+                        <img src="https://www.w3schools.com/w3images/bedroom.jpg" />
+
+                    </div>
+
+
+                </div>
+
+                
+
+            </div>
+
+           <div class="services">
+            <div class="subheading">
+                <h3>Services.</h3>
+
+            </div>
+            <div class="line">
+
+            </div>
+            <div class="para">
+                <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+                <br>
+                <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br>
+               
+            </div>
+
+           </div>
+
+           <div class="designers">
+            <div class="subheading">
+                <h3>Designers.</h3>
+
+            </div>
+            <div class="line">
+
+            </div>
+            <div class="para">
+                <p>The best team in the world.</p>
+                <br>
+                <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br>
+                <b>Our designers are thoughtfully chosen:</b>
+            </div>
+
+           </div>
+        
+
+           
           
          </div>
      
     </div>
+    
 
-    <header>
-
-
-    </header>
+    
     
 </body>
 </html>
