@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .main{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+        }
+        .box{
+            border: 1px solid black;
+            height: 30vh;
+            width: 15%;
+            animation-name: animation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: relative;
+            
+
+
+        }
+        .box1{
+            border: 1px solid black;
+            height: 30vh;
+            width: 15%;
+            animation-name: animation2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: relative;
+
+
+        }
+        
+
+        /* @keyframes animation{
+        from{
+            left: 0px;
+            top: 0px;
+            background-color: aquamarine;
+
+
+        }
+        to{
+            top: 0px;
+            left: 1000px;
+            background-color: blue;
+
+            
+
+        }
+
+    } */
+
+    @keyframes animation {
+        0%{
+            left: 200px;
+            top: 0px;
+            background-color: aquamarine;
+            position: relative;
+
+
+        }
+
+        25%{
+            left: 200px;
+            top: 300px;
+            background-color: rgb(43, 14, 141);
+            position: relative;
+
+
+        }
+
+        50%{
+            left: 0px;
+            top: 300px;
+            background-color: rgb(229, 208, 17);
+            position: relative;
+
+
+
+
+        }
+
+        75%{
+            left: 1200px;
+            top: 0px;
+            background-color: rgb(18, 180, 126);
+            position: relative;
+
+
+        }
+
+        100%{
+            left: 0px;
+            top: 550px;
+            background-color: rgb(17, 215, 149);
+            position: relative;
+
+        }
+        
+    }
+    @keyframes animation2{
+        0%{
+            right: 0px;
+            top: 0px;
+            background-color: aquamarine;
+            position: relative;
+
+
+        }
+
+        25%{
+            Right: 200px;
+            top: 300px;
+            background-color: rgb(43, 14, 141);
+            position: relative;
+
+
+        }
+
+        50%{
+            Right: 0px;
+            top: 300px;
+            background-color: rgb(229, 208, 17);
+            position: relative;
+
+
+
+
+        }
+
+        75%{
+            Right: 1200px;
+            top: 0px;
+            background-color: rgb(18, 180, 126);
+            position: relative;
+
+
+        }
+
+        100%{
+            Right: 0px;
+            top: 550px;
+            background-color: rgb(17, 215, 149);
+            position: relative;
+
+        }
+        
+    }
+
+
+
+    </style>
+
+    
+</head>
+<body>
+    <div class="main">
+    <div class="box">
+
+    </div>
+
+    <div class="box1">
+
+    </div>
+    </div>
+    
+</body>
+</html>
