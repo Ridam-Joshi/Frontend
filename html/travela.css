@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #13357b;
+    
+}
+.left{
+    color: white;
+    
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+.left i{
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 0px 8px 0px 0px;
+    border-radius: 40px;
+
+}
